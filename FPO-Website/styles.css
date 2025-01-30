@@ -1,0 +1,187 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+/* Header & Navigation */
+header {
+    background: #228B22;
+    color: white;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: url('farm.jpg') no-repeat center center/cover;
+    color: black;
+    padding: 60px 0;
+}
+
+.hero h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+button {
+    background: #FF9800;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #e68900;
+}
+
+/* Sections */
+section {
+    padding: 30px;
+    background: white;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 28px;
+    color: #228B22;
+}
+
+/* Table Styling */
+.table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.table th, .table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.table th {
+    background: #228B22;
+    color: white;
+}
+
+.table td button {
+    background: #007BFF;
+    padding: 8px 12px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.table td button:hover {
+    background: #0056b3;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+}
+
+form label {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form textarea {
+    height: 100px;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #228B22;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background: #1d741b;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-size: 14px;
+}
+@media screen and (max-width: 768px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    section {
+        width: 90%;
+    }
+    
+    form {
+        width: 90%;
+    }
+    
+    .table {
+        width: 100%;
+        overflow-x: auto;
+    }
+}
