@@ -9,7 +9,7 @@ body {
 
 /* Header & Navigation */
 header {
-    background: #228B22;
+    background:#228B22;
     color: white;
     padding: 15px 0;
 }
@@ -21,13 +21,14 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 20px;
 }
 
 nav ul li a {
-    color: black;
+    color: white;
+    background:#228B22;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: bold;
 }
 
@@ -38,7 +39,8 @@ nav ul li a:hover {
 /* Hero Section */
 .hero {
     background: url('farm.jpg') no-repeat center center/cover;
-    color: black;
+    color:white;
+    background-color: #ddd;
     padding: 60px 0;
 }
 
@@ -69,7 +71,7 @@ button:hover {
 /* Sections */
 section {
     padding: 30px;
-    background: white;
+    background: rgb(86, 239, 135);
     margin: 20px auto;
     width: 80%;
     border-radius: 10px;
@@ -86,7 +88,7 @@ section h2 {
     width: 80%;
     margin: 20px auto;
     border-collapse: collapse;
-    background: white;
+    background: rgb(121, 237, 105);
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -160,7 +162,7 @@ form button:hover {
 /* Footer */
 footer {
     background: #333;
-    color: white;
+    color: rgb(65, 221, 63);
     padding: 10px 0;
     margin-top: 20px;
     font-size: 14px;
